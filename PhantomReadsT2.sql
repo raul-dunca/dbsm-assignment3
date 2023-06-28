@@ -1,0 +1,9 @@
+BEGIN TRANSACTION
+INSERT INTO Partners(PaName,PaRevenue)
+VALUES ('Colgate',10001)
+COMMIT TRANSACTION
+
+
+
+--DELETE FROM Partners WHERE Paid>41
+
